@@ -1,0 +1,37 @@
+{
+    "provider": {
+        "name": "book_provider"
+    },
+    "consumer": {
+        "name": "book_consumer"
+    },
+    "interactions": [
+        {
+            "description": "Get Book 2",
+            "request": {
+                "method": "GET",
+                "path": "/book/2"
+            },
+            "response": {
+                "status": 200,
+                "body": {
+                    "author": "Pushkin",
+                    "name": "Onegin"
+                }
+            },
+            "providerStates": [
+                {
+                    "name": "Onegin"
+                }
+            ]
+        }
+    ],
+    "metadata": {
+        "pact-specification": {
+            "version": "3.0.0"
+        },
+        "pact-jvm": {
+            "version": "3.5.0"
+        }
+    }
+}

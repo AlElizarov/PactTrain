@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: BookProviderTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.47 s <<< FAILURE! - in BookProviderTest
+BookProviderTest  Time elapsed: 7.454 s  <<< ERROR!
+org.springframework.boot.web.embedded.tomcat.ConnectorStartFailedException: Connector configured to listen on port 8080 failed to start
+	at BookProviderTest.start(BookProviderTest.java:39)
+
